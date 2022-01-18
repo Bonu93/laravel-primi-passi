@@ -19,3 +19,10 @@ Route::get('/', function () {
         'subtitle' => 'Lorem ispum dolor sit amet'
     ]);
 });
+
+Route::get('/about-us', function() {
+    return view('about', [
+        'title' => 'About us',
+        'subtitle' => 'Lorem ipsum'
+    ]);
+})->name('about');

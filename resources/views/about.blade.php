@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $title }}</h1>
-    <h2>{{ $subtitle }}</h2>
-    <a href="{{ route('about') }}">About us</a>
+    <h2>{{ $title }}</h2>
+    <h3>{{ $subtitle }}</h3>
+    <a href="/">Home</a>
 </body>
 </html>
